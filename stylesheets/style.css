@@ -1,0 +1,313 @@
+/******************************** GENERAL STYLES ********************************/
+
+body {
+	font-family: 'Pontano Sans', sans-serif;
+	/*font-family: 'Century Gothic', 'Candara', 'Futura', sans-serif;*/
+	background: #BFBFBF;
+}
+
+ul, li {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+h4 {
+	font-size: 32px;
+	margin: 0;
+}
+
+h5, h6 {
+	font-size: 20px;
+}
+
+nav {
+	/*background-color: rgba(255, 255, 255, 0.4);*/
+	background: #BFBFBF;
+	width: 668px;
+	height: 40px;
+	left: 50%;
+	margin-left: -405px;
+	padding: 50px 68px 10px;
+	top: 0;
+	position: fixed;
+	z-index: 2;
+}
+
+nav ul {
+	margin: 0;
+	position: relative;
+	display: inline-table;
+}
+
+nav ul li {
+	padding: 10px 21px;
+	border-right: 2px solid #47BFBB;
+	float: left;
+}
+
+nav ul li:last-child {
+	border-right: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul li a:hover {
+	color: #F0F0F0;
+}
+
+nav ul ul {
+	background: #BFBFBF;
+	width: 144px;
+	margin-left: -23px;
+	padding-left: 14px;
+	padding-bottom: 10px;
+	top: 100%;
+	border: 2px solid #47BFBB;
+	border-top: none;
+	position: absolute;
+	display: none;
+}
+
+#long_list {
+	width: 192px;
+}
+
+nav ul ul li {
+	padding: 2px 0 0 10px;
+	position: relative;
+	float: none;
+	border-right: none;
+}
+
+#short_list li {
+	width: 110px;
+}
+
+#long_list li {
+	width: 160px;
+}
+
+/*nav highlight current page*/
+body#body_about a#navabout,
+body#body_art a#navart,
+body#body_teaching a#navteaching,
+body#body_contact a#navcontact {
+	color: #F0F0F0;
+}
+
+/******************************** HOMEPAGE ********************************/
+
+#home_container {
+	width: 474px;
+	height: 300px;
+	margin: 300px auto;
+}
+
+#home_left {
+	padding-right: 20px;
+	float: left;
+	border-right: 3px solid #47BFBB;
+}
+
+#home_right {
+	padding: 8px 0 0 28px;
+	float: left;
+}
+
+#home_right a:hover {
+	color: #F0F0F0;
+}
+
+/******************************** ABOUT ********************************/
+
+#about_container {
+	width: 700px;
+	height: 500px;
+	margin: 90px auto 0;
+	padding-top: 100px;
+}
+
+#about_container div {
+	width: 44%;
+	float: left;
+}
+
+#about_left {
+	padding: 0 20px 0 30px;
+}
+
+#about_right {
+	padding: 0 10px;
+	margin-top: 30px;
+}
+
+#about_right p {
+	text-align: center;
+	line-height: 22px;
+	padding: 0 12px;
+}
+
+/******************************** ART PORTFOLIO ********************************/
+
+section {
+	width: 804px;
+	height: 300px;
+	margin: 50px auto 10px;
+}
+
+#painting {
+	height: 1230px;
+	margin-bottom: 0;
+	padding-top: 100px;
+	border-bottom: 1px solid #000;
+}
+
+#body_art p {
+	font-size: 14px;
+	width: 220px;
+	height: 16px;
+	margin: 0;
+}
+
+#sculpture {
+	height: 600px;
+	margin-top: -40px;
+	padding-top: 94px;
+}
+
+#sculpture div {
+	width: 100%;
+}
+
+#sculpture h6 {
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+#photos_sculpture_1 {
+	height: 260px;
+}
+
+#photos_sculpture_2 {
+	height: 490px;
+}
+
+#photos_sculpture_3 {
+	height: 530px;
+}
+
+.fancybox-thumb {
+	width: 242px;
+	height: 208px;
+	padding: 13px;
+	/*text-align: center;*/
+	float: left;
+}
+
+/******************************** TEACHING PORTFOLIO ********************************/
+
+#philosophy {
+	height: 424px;
+	padding-top: 106px;
+}
+
+#photos {
+	width: 800px;
+	height: 650px;
+	margin-top: -50px;
+	margin-bottom: 0;
+	padding-top: 100px;
+	position: relative;
+	z-index: 1;
+}
+
+.content{
+	margin:0px 25px 30px 25px;
+}
+
+#lessons {
+	height: 760px;
+	margin-top: -50px;
+	padding-top: 110px;
+}
+
+.unit_plan {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.unit_plan h5 {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.unit_plan a {
+	color: #666666;
+	padding-right: 2px;
+}
+
+.unit_plan a:hover {
+	color: #F0F0F0;
+}
+
+/******************************** CONTACT ********************************/
+
+#contact_container {
+	width: 720px;
+	height: 540px;
+	margin: 90px auto;
+	padding-top: 100px;
+}
+
+#contact_left, #contact_right {
+	width: 50%;
+	float: left;
+}
+
+.button a {
+	width: 150px;
+	height: 20px;
+	margin-top: 30px;
+	margin-right: 14px;
+	padding: 5px;
+	text-align: center;
+	float: left;
+	border: 2px solid #000;
+	-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+	-webkit-transition: background 500ms ease;
+	-moz-transition: background 500ms ease;
+	-ms-transition: background 500ms ease;
+	-o-transition: background 500ms ease;
+	transition: background 500ms ease;
+}
+
+.button a:hover {
+	color: #FFF;
+	background: #000;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px){
+	html, body {
+		width: 568px;
+	}
+
+	nav {
+		left: 0;
+		margin-left: 0;
+		position: relative;
+	}
+
+	#about_container, #painting, #philosophy, #contact_container {
+		padding-top: 0;
+	}
+}
