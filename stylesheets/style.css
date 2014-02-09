@@ -147,9 +147,12 @@ body#body_contact a#navcontact {
 }
 
 #about_right p {
-	text-align: center;
 	line-height: 22px;
 	margin: 0;
+	padding: 0 12px;
+}
+
+#about_right .button {
 	padding: 0 12px;
 }
 
@@ -169,7 +172,6 @@ section {
 }
 
 #body_art p {
-	color: #47BFBB;
 	font-size: 14px;
 	width: 220px;
 	height: 16px;
