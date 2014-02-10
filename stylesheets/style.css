@@ -2,7 +2,6 @@
 
 body {
 	font-family: 'Pontano Sans', sans-serif;
-	/*font-family: 'Century Gothic', 'Candara', 'Futura', sans-serif;*/
 	background: #E3E3E3;
 }
 
@@ -26,7 +25,6 @@ h5, h6 {
 }
 
 nav {
-	/*background-color: rgba(255, 255, 255, 0.4);*/
 	background: #E3E3E3;
 	width: 668px;
 	height: 40px;
@@ -93,7 +91,6 @@ nav ul ul li {
 	width: 160px;
 }
 
-/*nav highlight current page*/
 body#body_about a#navabout,
 body#body_art a#navart,
 body#body_teaching a#navteaching,
@@ -116,7 +113,7 @@ body#body_contact a#navcontact {
 }
 
 #home_right {
-	padding: 8px 0 0 28px;
+	padding: 0 0 0 20px;
 	float: left;
 }
 
@@ -234,7 +231,7 @@ section {
 }
 
 #lessons {
-	height: 760px;
+	height: 730px;
 	margin-top: -50px;
 	padding-top: 110px;
 }
@@ -298,18 +295,189 @@ section {
 	background: #47BFBB;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 568px){
-	html, body {
-		width: 568px;
-	}
+@media only screen and (max-width: 568px){
 
 	nav {
+		width: 496px;
+		margin: 0 auto;
+		padding: 50px 20px;
 		left: 0;
-		margin-left: 0;
 		position: relative;
+	}
+
+	nav ul li {
+		padding: 4px;
+	}
+
+	nav ul ul {
+		width: 110px;
+		margin-left: -6px;
+	}
+
+	#short_list li {
+		width: 80px;
+	}
+
+	#long_list {
+		width: 158px;
+	}
+
+	#long_list li {
+		width: 158px;
+		padding: 0;
 	}
 
 	#about_container, #painting, #philosophy, #contact_container {
 		padding-top: 0;
+	}
+
+	#home_container {
+		width: 260px;
+		margin: 100px auto;
+	}
+
+	#home_left {
+		width: 250px;
+		margin: 0 auto;
+		padding-right: 0;
+		padding-bottom: 10px;
+		border-right: none;
+		border-bottom: 2px solid #47BFBB;
+		float: none;
+	}
+
+	#home_right {
+		width: 250px;
+		margin: 0 auto;
+		padding-left: 0;
+		text-align: center;
+		float: none;
+	}
+
+	#body_about {
+		height: 1000px;
+	}
+
+	#about_container {
+		width: 536px;
+		margin: 10px auto;
+	}
+
+	#about_container div {
+		width: 307px;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#about_left {
+		padding: 0;
+	}
+
+	#about_right {
+		padding: 30px 0 0;
+	}
+
+	#about_right .button a {
+		margin: 20px auto 30px;
+	}
+
+	#body_art nav {
+		margin: 0 auto;
+	}
+
+	#painting {
+		width: 540px;
+		height: 1920px;
+		margin-top: 0;
+		padding: 0 20px;
+	}
+
+	#sculpture {
+		width: 540px;
+		height: 1550px;
+		padding: 94px 20px 0;
+	}
+
+	#philosophy {
+		width: 500px;
+		height: 630px;
+		margin-top: 0;
+		padding: 0 20px;
+	}
+
+	#photos {
+		width: 500px;
+		height: 460px;
+		padding: 30px 20px;
+	}
+
+	#lessons {
+		width: 500px;
+		height: 910px;
+		padding: 40px 20px;
+	}
+
+	#contact_container {
+		width: 536px;
+		height: 700px;
+		margin: 0 auto;
+	}
+
+	#contact_left {
+		width: 300px;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#contact_right {
+		width: 300px;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#contact_right p {
+		margin: 20px auto 0;
+	}
+
+	.button a {
+		width: 122px;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px){
+	#short_list {
+		width: 109px;
+	}
+
+	#long_list {
+		width: 156px;
+	}
+
+	#body_art {
+		width: 540px;
+		margin: 0;
+	}
+
+	#painting, #sculpture {
+		width: 520px;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	#painting {
+		height: 1850px;
+	}
+
+	#sculpture {
+		padding-top: 40px;
+	}
+
+	.fancybox-thumb {
+		padding: 8px;
+	}
+
+	#body_teaching nav {
+		width: 500px;
+		padding: 50px 20px;
 	}
 }
