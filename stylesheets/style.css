@@ -375,6 +375,11 @@ section {
 
 	#about_right {
 		padding: 30px 0 0;
+		text-align: center;
+	}
+
+	#about_right .button {
+		width: 136px;
 	}
 
 	#about_right .button a {
