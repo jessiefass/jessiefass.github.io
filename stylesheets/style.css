@@ -412,7 +412,7 @@ section {
 
 	#photos {
 		width: 500px;
-		height: 460px;
+		height: auto;
 		padding: 30px 20px;
 	}
 
