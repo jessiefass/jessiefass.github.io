@@ -282,6 +282,10 @@ section {
 	text-shadow: 1px 1px 1px #000000;
 }
 
+#contact_right .button a {
+	color: #FFF;
+}
+
 .button a {
 	width: 150px;
 	height: 20px;
