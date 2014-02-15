@@ -497,6 +497,10 @@ section {
 		margin: 0 auto;
 	}
 
+	#contact_right p {
+		text-shadow: none;
+	}
+
 	#contact_right .button a {
 		width: 150px;
 		margin-left: 16px 
