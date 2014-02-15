@@ -368,6 +368,8 @@ section {
 		padding-left: 0;
 		text-align: center;
 		float: none;
+
+		font-weight: 700;
 	}
 
 	#body_about {
