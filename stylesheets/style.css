@@ -553,11 +553,11 @@ and (max-device-width : 1024px)  {
 	}
 
 	nav ul ul {
-		width: 109px;
+		width: 111px;
 		margin-left: -10px;
 	}
 
 	#long_list {
-		width: 154px;
+		width: 155px;
 	}
 }
