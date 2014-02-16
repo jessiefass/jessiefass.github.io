@@ -156,6 +156,7 @@
 				this._setCurrentValues();
 				// how many items fit with the current width
 				this.fitCount	= this.options.minItems;
+
 			}
 			else {
 				this._setDim();
@@ -183,17 +184,26 @@
 			
 			// the total space occupied by one item
 			this.itemW			= this.$items.outerWidth(true);
+
+			// get width of each item not just first
+			var width = 0
+			this.$items.each(function() {
+				var $this = $(this);
+				width += $this.outerWidth(true);
+				return width;
+			})
 			
 			// total width of the slider / <ul>
 			// this will eventually change on window resize
-			this.sliderW		= this.itemW * this.itemsCount;
-			
+				// this.sliderW		= this.itemW * this.itemsCount;
+			this.sliderW = width;
+
 			// the ul parent's (div.es-carousel) width is the "visible" width
 			this.visibleWidth	= this.$esCarousel.width();
-			
+
 			// how many items fit with the current width
 			this.fitCount		= Math.floor( this.visibleWidth / this.itemW );
-			
+
 		},
 		_addControls		: function() {
 			
@@ -409,7 +419,7 @@
 			var ml		= Math.abs( parseFloat( this.$slider.css('margin-left') ) ),
 				posR	= ml + this.visibleWidth,
 				fml		= Math.abs( this.current * this.itemW );
-			
+
 			if( fml + this.itemW > posR || fml < ml ) {
 				this._slideToCurrent();
 			}

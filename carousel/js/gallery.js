@@ -75,7 +75,7 @@ $(function() {
 					
 					// show first image
 					_showImage( $items.eq( current ) );
-						
+
 				});
 				
 				// initialize the carousel
@@ -96,6 +96,7 @@ $(function() {
 						_showImage($item);
 						// change current
 						current	= $item.index();
+
 					}
 				});
 				
