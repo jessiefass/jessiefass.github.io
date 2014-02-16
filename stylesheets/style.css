@@ -363,13 +363,12 @@ section {
 	}
 
 	#home_right {
+		font-weight: 700;
 		width: 250px;
 		margin: 0 auto;
 		padding-left: 0;
 		text-align: center;
 		float: none;
-
-		font-weight: 700;
 	}
 
 	#body_about {
