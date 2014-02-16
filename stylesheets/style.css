@@ -182,7 +182,7 @@ section {
 #body_art p {
 	font-size: 14px;
 	width: 220px;
-	height: 16px;
+	line-height: 18px;
 	margin: 0;
 }
 
@@ -426,7 +426,7 @@ section {
 
 	#painting {
 		width: 540px;
-		height: 1780px;
+		height: 1810px;
 		margin-top: 0;
 		padding: 0 20px;
 	}
@@ -493,7 +493,7 @@ section {
 	}
 
 	#painting {
-		height: 1850px;
+		height: 1700px;
 	}
 
 	#sculpture {
