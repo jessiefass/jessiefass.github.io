@@ -30,11 +30,14 @@
 	position:absolute;
 	top:50%;
 	left:0px;
-	background:transparent url(../images/nav_thumbs.png) no-repeat top left;
+	/*background:transparent url(../images/nav_thumbs.png) no-repeat top left;*/
 	width:12px;
 	height:100%;
-	text-indent:-9000px;
+	/*text-indent:-9000px;*/
 	cursor:pointer;
+}
+.rg-image-nav i{
+	color: #47BFBB;
 }
 .rg-image-nav a.rg-image-nav-next{
 	/*background-position:115% 50%;

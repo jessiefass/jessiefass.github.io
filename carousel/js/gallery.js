@@ -153,7 +153,6 @@ $(function() {
 					});	
 					
 					$navNext.on('click.rgGallery', function( event ) {
-						console.log('yo');
 						_navigate( 'right' );
 						return false;
 					});
