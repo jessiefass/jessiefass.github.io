@@ -1,7 +1,19 @@
+@font-face {
+    font-family: 'district_prothin';
+    src: url('../fonts/distproth-webfont.eot');
+    src: url('../fonts/distproth-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/distproth-webfont.woff') format('woff'),
+         url('../fonts/distproth-webfont.ttf') format('truetype'),
+         url('../fonts/distproth-webfont.svg#district_prothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /******************************** GENERAL STYLES ********************************/
 
 body {
-	font-family: 'Pontano Sans', sans-serif;
+	/*font-family: 'Pontano Sans', sans-serif;*/
+	font-family: 'district_prothin', sans-serif;
 	background: #E3E3E3;
 }
 
@@ -26,11 +38,11 @@ h5, h6 {
 
 nav {
 	background: #E3E3E3;
-	width: 668px;
+	width: 628px;
 	height: 40px;
 	left: 50%;
-	margin-left: -405px;
-	padding: 50px 68px 10px;
+	margin-left: -414px;
+	padding: 50px 100px 10px;
 	top: 0;
 	position: fixed;
 	z-index: 2;
@@ -61,7 +73,7 @@ nav ul li a:hover {
 
 nav ul ul {
 	background: #E3E3E3;
-	width: 144px;
+	width: 135px;
 	margin-left: -23px;
 	padding-left: 14px;
 	padding-bottom: 10px;
@@ -73,7 +85,7 @@ nav ul ul {
 }
 
 #long_list {
-	width: 192px;
+	width: 177px;
 }
 
 nav ul ul li {
@@ -124,23 +136,22 @@ body#body_contact a#navcontact {
 /******************************** ABOUT ********************************/
 
 #about_container {
-	width: 700px;
+	width: 600px;
 	height: 500px;
-	margin: 90px auto 0;
-	padding-top: 100px;
+	margin: 160px auto 0;
 }
 
 #about_container div {
-	width: 44%;
+	width: 48%;
 	float: left;
 }
 
-#about_left {
-	padding: 0 20px 0 30px;
+#about_left img {
+	width: 100%;
 }
 
 #about_right {
-	padding: 0 10px;
+	padding-left: 24px; 
 }
 
 #about_right p {
@@ -322,24 +333,32 @@ section {
 	}
 
 	nav ul li {
-		padding: 4px;
+		padding: 9px;
+	}
+
+	nav ul li:first-child {
+		padding-left: 0;
+	}
+
+	nav ul li:last-child {
+		padding-right: 0;
 	}
 
 	nav ul ul {
-		width: 110px;
-		margin-left: -6px;
+		width: 111px;
+		margin-left: -11px;
 	}
 
-	#short_list li {
-		width: 80px;
+	nav ul ul li {
+		padding-left: 0;
 	}
 
 	#long_list {
-		width: 158px;
+		width: 153px;
 	}
 
 	#long_list li {
-		width: 158px;
+		width: 153px;
 		padding: 0;
 	}
 
@@ -363,7 +382,6 @@ section {
 	}
 
 	#home_right {
-		font-weight: 700;
 		width: 250px;
 		margin: 0 auto;
 		padding-left: 0;
@@ -451,9 +469,6 @@ section {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px){
-	#short_list {
-		width: 109px;
-	}
 
 	#long_list {
 		width: 156px;
@@ -485,6 +500,10 @@ section {
 	#body_teaching nav {
 		width: 520px;
 		padding: 50px 20px;
+	}
+
+	#philosophy {
+		height: 590px;
 	}
 
 	#contact_container {
