@@ -551,4 +551,8 @@ and (max-device-width : 1024px)  {
 	nav ul li {
 		padding: 8px;
 	}
+
+	nav ul ul {
+		margin-left: -22px;
+	}
 }
