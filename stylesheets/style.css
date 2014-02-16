@@ -560,4 +560,14 @@ and (max-device-width : 1024px)  {
 	#long_list {
 		width: 155px;
 	}
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	#home_container {
+		margin-top: 30%;
+	}
 }
