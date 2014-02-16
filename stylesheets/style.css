@@ -173,7 +173,7 @@ section {
 }
 
 #painting {
-	height: 1230px;
+	height: 1150px;
 	margin-bottom: 0;
 	padding-top: 100px;
 	border-bottom: 1px solid #000;
@@ -197,25 +197,24 @@ section {
 }
 
 #sculpture h6 {
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 2px;
 }
 
 #photos_sculpture_1 {
-	height: 260px;
+	height: 230px;
 }
 
 #photos_sculpture_2 {
-	height: 490px;
+	height: 410px;
 }
 
 #photos_sculpture_3 {
-	height: 530px;
+	height: 450px;
 }
 
 .fancybox-thumb {
 	width: 242px;
-	height: 208px;
 	padding: 13px;
 	float: left;
 }
@@ -427,15 +426,23 @@ section {
 
 	#painting {
 		width: 540px;
-		height: 1920px;
+		height: 1780px;
 		margin-top: 0;
 		padding: 0 20px;
 	}
 
 	#sculpture {
 		width: 540px;
-		height: 1550px;
+		height: 1350px;
 		padding: 94px 20px 0;
+	}
+
+	#photos_sculpture_2 {
+		height: 590px;
+	}
+
+	#photos_sculpture_3 {
+		height: 420px;
 	}
 
 	#philosophy {
