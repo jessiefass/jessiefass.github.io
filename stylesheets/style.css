@@ -42,10 +42,10 @@ h5, h6 {
 
 nav {
 	background: #E3E3E3;
-	width: 628px;
+	width: 632px;
 	height: 40px;
 	left: 50%;
-	margin-left: -414px;
+	margin-left: -416px;
 	padding: 50px 100px 10px;
 	top: 0;
 	position: fixed;
@@ -90,6 +90,17 @@ nav ul ul {
 
 #long_list {
 	width: 177px;
+}
+
+@-moz-document url-prefix() {
+  nav ul ul{
+    color: red;
+    width: 136px;
+  }
+
+  #long_list {
+  	width: 179px;
+  }
 }
 
 nav ul ul li {
@@ -363,6 +374,12 @@ section {
 	#long_list li {
 		width: 153px;
 		padding: 0;
+	}
+
+	@-moz-document url-prefix() {
+	  #long_list {
+	  	width: 156px;
+	  }
 	}
 
 	#about_container, #painting, #philosophy, #contact_container {
