@@ -42,10 +42,10 @@ h5, h6 {
 
 nav {
 	background: #E3E3E3;
-	width: 632px;
+	width: 636px;
 	height: 40px;
 	left: 50%;
-	margin-left: -416px;
+	margin-left: -418px;
 	padding: 50px 100px 10px;
 	top: 0;
 	position: fixed;
@@ -77,7 +77,7 @@ nav ul li a:hover {
 
 nav ul ul {
 	background: #E3E3E3;
-	width: 135px;
+	width: 137px;
 	margin-left: -23px;
 	padding-left: 14px;
 	padding-bottom: 10px;
@@ -89,7 +89,7 @@ nav ul ul {
 }
 
 #long_list {
-	width: 177px;
+	width: 180px;
 }
 
 @-moz-document url-prefix() {
@@ -339,7 +339,7 @@ section {
 @media only screen and (max-width: 812px){
 
 	nav {
-		width: 496px;
+		width: 498px;
 		margin: 0 auto;
 		padding: 50px 20px 30px;
 		left: 0;
@@ -359,7 +359,7 @@ section {
 	}
 
 	nav ul ul {
-		width: 111px;
+		width: 113px;
 		margin-left: -11px;
 	}
 
@@ -368,7 +368,7 @@ section {
 	}
 
 	#long_list {
-		width: 153px;
+		width: 156px;
 	}
 
 	#long_list li {
